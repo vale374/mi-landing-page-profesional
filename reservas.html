@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee with Art — Reservas</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Coffee with Art</div>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="experiencias.html">Experiencias</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="reservas.html" class="active">Reservas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Introducción -->
+    <section class="contact container">
+      <h2>Reservas</h2>
+      <p>¿Quieres vivir tu <b>Coffee Date</b>? Reserva tu espacio fácil y rápido.</p>
+      <p class="small">Horarios: <strong>Mar–Dom</strong> 10:00 a.m. – 8:00 p.m. | <strong>Cartago, Valle del Cauca</strong></p>
+    </section>
+
+    <!-- Formulario de Reservas -->
+    <section class="formulario container">
+      <h3>Reserva en línea</h3>
+      <form action="#" method="post">
+        <label for="nombre">👤 Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="email">📧 Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required>
+
+        <label for="personas">👥 Número de personas:</label>
+        <input type="number" id="personas" name="personas" min="1" max="20" required>
+
+        <label for="fecha">📅 Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="plan">☕ Plan:</label>
+        <select id="plan" name="plan" required>
+          <option value="">-- Selecciona un plan --</option>
+          <option value="clay">Clay & Chill</option>
+          <option value="brunch">Brunch & Brush</option>
+          <option value="familiar">Plan Familiar / Friends</option>
+          <option value="pareja">Plan en Pareja</option>
+          <option value="individual">Plan Individual</option>
+        </select>
+
+        <button type="submit" class="btn-reserva">Confirmar Reserva</button>
+      </form>
+    </section>
+
+    <!-- Contacto directo -->
+    <section class="direct-contact container">
+      <h3>Reserva por WhatsApp</h3>
+      <a href="https://wa.me/573000000000" target="_blank" class="btn-whatsapp">📲 Escríbenos por WhatsApp</a>
+      <div class="socials">
+        <p>Síguenos en redes:</p>
+        <a href="#">📸 Instagram</a> | 
+        <a href="#">🎶 TikTok</a> | 
+        <a href="#">📘 Facebook</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Coffee with Art — Valeria Quintero Vélez</p>
+  </footer>
+</body>
+</html>
