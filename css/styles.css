@@ -355,7 +355,7 @@ footer {
   margin-top: auto; /* Hace que quede fijo al final */
 }
 
-/* GALERÍA */
+/* GALERIA */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 imágenes por fila */
