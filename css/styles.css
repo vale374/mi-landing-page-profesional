@@ -257,7 +257,7 @@ section h2 {
 .btn-reserva {
   padding: 12px;
   background: var(--morado-claro);
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 1rem;
   border: none;
   border-radius: 8px;
